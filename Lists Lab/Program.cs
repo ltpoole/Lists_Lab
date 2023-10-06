@@ -35,13 +35,15 @@ namespace Lists_Lab
             //       Console.WriteLine(instructor);
             //   }
             instructors.Remove("Ted");
+            instructors.RemoveAt(0);
 
             for (int i = 0; i < instructors.Count; i++)
             {
                 Console.WriteLine(instructors[i]);
-    ;
             }
-
+            
+            Console.WriteLine(instructors.Count);
+            
 
         }
     }
