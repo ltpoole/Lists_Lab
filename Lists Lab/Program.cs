@@ -59,7 +59,25 @@ namespace Lists_Lab
                 Console.WriteLine(name + ending);
             }
 
+            List<string> items = new List<string>()
+            {
+                "fan",
+                "bulls",
+                "high-",
+                "barrel-o-",
+                "slap"
+            };
 
+            List<string> objects = new List<string>()
+            {
+                "fare",
+                "eye",
+                "horse",
+                "monkeys",
+                "stick"
+            };
+
+           
         }
     }
 }
