@@ -43,7 +43,22 @@ namespace Lists_Lab
             }
             
             Console.WriteLine(instructors.Count);
-            
+
+            List<string> names = new List<string>()
+            {
+                "John",
+                "Thomp",
+                "Sander",
+                "Robin"
+            };
+
+             string ending = "son";
+
+            foreach (string name in names)
+            {
+                Console.WriteLine(name + ending);
+            }
+
 
         }
     }
