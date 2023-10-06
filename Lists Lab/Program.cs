@@ -6,13 +6,35 @@ namespace Lists_Lab
     {
         static void Main(string[] args)
         {
-         List<string> programs = new List<string> { "C#", "JavaScript", "Python", "Java", "ASP.NET", "React" };
+         List<string> programs = new List<string>()
+         { 
+           "C#", 
+           "JavaScript",
+           "Python", 
+           "Java", 
+           "ASP.NET", 
+           "React" 
+         };
 
-         List<string> instructors = new List<string> { "Mike", "Nevin", "Jake", "Dan", "Megan" };
+         List<string> instructors = new List<string>() 
+         { 
+           "Mike", 
+           "Nevin", 
+           "Jake", 
+           "Dan", 
+           "Megan"
+         };
+
             instructors.Add("Dan");
             instructors.Add("Amy");
             instructors.Add("Ted");
-         
+            instructors[3] = "Danimal";
+
+         foreach(string instructor in instructors)
+            {
+                Console.WriteLine(instructor);
+
+            }
            
 
         }
