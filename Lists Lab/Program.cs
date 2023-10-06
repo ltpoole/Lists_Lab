@@ -30,12 +30,18 @@ namespace Lists_Lab
             instructors.Add("Ted");
             instructors[3] = "Danimal";
 
-         foreach(string instructor in instructors)
-            {
-                Console.WriteLine(instructor);
+            //foreach(string instructor in instructors)
+            //   {
+            //       Console.WriteLine(instructor);
+            //   }
+            instructors.Remove("Ted");
 
+            for (int i = 0; i < instructors.Count; i++)
+            {
+                Console.WriteLine(instructors[i]);
+    ;
             }
-           
+
 
         }
     }
